@@ -15,7 +15,7 @@ AI-powered computer vision system for detecting ChatGPT, Gemini, and Claude inte
 
 - Python
 - OpenCV
-- YOLOv11 / YOLOv12
+- YOLOv12
 - NumPy
 - Pandas
 - Jupyter Notebook
