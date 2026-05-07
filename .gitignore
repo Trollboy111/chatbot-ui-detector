@@ -15,8 +15,11 @@ env/
 # VSCode
 .vscode/
 
-# Model weights
+# Ignore large model weights EXCEPT best.pt
 *.pt
+!models/best.pt
+
+# Other model formats
 *.pth
 *.onnx
 
@@ -34,8 +37,7 @@ chatbot_images/
 non-chatbot/
 backgrounds/
 
-# Media outputs
-*.mp4
+# Ignore large videos only
 *.avi
 *.mov
 
