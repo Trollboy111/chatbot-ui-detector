@@ -15,7 +15,7 @@ env/
 # VSCode
 .vscode/
 
-# Ignore large model weights EXCEPT best.pt
+# Ignore all model weights EXCEPT deployed best model
 *.pt
 !models/best.pt
 
@@ -23,15 +23,14 @@ env/
 *.pth
 *.onnx
 
-# Training runs / outputs
+# Ignore training runs
 runs/
 runs_chatbot/
-Annotated_Results/
 
-# Generated datasets
+# Ignore generated augmentations
 Augmented_Images/
 
-# Large datasets
+# Ignore large datasets
 chat_bot_detection_912_ai_118_non_ai_v4.yolov12/
 chatbot_images/
 non-chatbot/
