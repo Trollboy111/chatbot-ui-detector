@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Training runs / outputs
+runs/
+runs_chatbot/
+Annotated_Results/
+
+# Generated datasets
+Augmented_Images/
+
+# Large datasets
+chat_bot_detection_912_ai_118_non_ai_v4.yolov12/
+chatbot_images/
+non-chatbot/
+backgrounds/
+
+# Media outputs
+*.mp4
+*.avi
+*.mov
+
+# OS files
+.DS_Store
+Thumbs.db
