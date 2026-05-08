@@ -20,3 +20,7 @@ AI-powered computer vision system for detecting ChatGPT, Gemini, and Claude inte
 - Pandas
 - Jupyter Notebook
 - Ultralytics
+
+## Example Detection
+
+![Homepage](Annotated_Results/confusion.png)
